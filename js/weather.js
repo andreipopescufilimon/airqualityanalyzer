@@ -14,7 +14,7 @@ document.onkeydown = function(e) {
 }
 
 const weatherApi = {
-    key: "408ef9e4459e14ea5ef34f6d221bf196",
+    key: "API_KEY",
     baseUrl: "https://api.openweathermap.org/data/2.5/weather", 
 }
 
