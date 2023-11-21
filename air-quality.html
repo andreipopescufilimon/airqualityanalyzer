@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>AQ | Air Quality</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="AQ | AirMeasure">
+  <meta name="keywords" content="AQ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="img/toplogo.png" rel="shortcut icon" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+
+
+  <!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+  <!-- Page Preloder -->
+
+
+  <div class="snowflakes" aria-hidden="true">
+    <!-- Header section -->
+    <header class="header-section">
+      <div class="container">
+        <!-- logo -->
+        <a class="site-logo" href="index.html">
+          <img src="img/logo.png" alt="logo" width="50" height="50">
+        </a>
+        <!-- responsive -->
+        <div class="nav-switch">
+          <i class="fa fa-bars"></i>
+        </div>
+        <!-- site menu -->
+        <nav class="main-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="air-quality.html">Air Quality</a></li>
+            <li><a href="weather.html">Live Weather</a></li>
+            <li><a href="aq-module.html">AQ Module</a></li>
+            <li><a href="digitalportofolio.html">Digital Portofolio</a></li>
+            <li><a href="app.html">Download APP</a></li>
+            <li><a href="https://www.youtube.com/@andreipopescufilimon495" target="_blank"><i class="fa fa-youtube"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/andreip851/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+
+
+    <section class="hero-section">
+      <div class="hero-slider owl-carousel">
+        <div class="hs-item set-bg" data-setbg="img/slider-1.jpg">
+
+          <div class="hs-text">
+            <div class="container">
+              <h2>Measuring <span>Air</span> Quality</h2>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+
+
+    <!-- Page section -->
+    <section class="page-section review-page spad">
+      <br>
+      <div class="container">
+        <!-- location search box -->
+        <center>
+          <div class="location-container">
+            <h3 class="sub-heading">Your Location:</h3>
+            <br>
+            <label for="error-msg" style="color: red;"></label>
+              <input type="number" name="lat" placeholder="Latitude" id="latitude" step="0.0001" class="loc-input" />
+              <input type="number" name="lon" placeholder="Longitude" id="longitude" step="0.0001" class="loc-input" />
+              <button class="search-btn">Search</button>
+          </div>
+          <br>
+          <h3 class="sub-heading">Data:</h3>
+          <br>
+        </center>
+        <!-- location search box end -->
+        <!-- aq index -->
+        <!-- aq index end -->
+        <!-- AIR DATA -->
+        <table>
+          <thead>
+            <tr>
+              <th>Air Quality Index</th>
+              <th> </th>
+              <th> </th>
+            </tr>
+            <thead>
+            <tbody>
+              <tr>
+                <td><span class="air-quality">...</span></td>
+                <td><span class="arr">&nbsp;&rarr;&nbsp;</span></td>
+                <td><span class="air-quality-status">...</span></td>
+              </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <table>
+          <thead>
+            <tr>
+              <th>CODE</th>
+              <th>NAME</th>
+              <th>VALUE μg/m³</th>
+            </tr>
+            <thead>
+            <tbody>
+              <tr>
+                <td>CO</td>
+                <td><a href="https://en.wikipedia.org/wiki/Carbon_monoxide" target="_blank">Carbon Monoxide</a></td>
+                <td><span class="component-val" data-comp="co"></td>
+              </tr>
+              <tr>
+                <td>NO</td>
+                <td><a href="https://en.wikipedia.org/wiki/Nitric_oxide" target="_blank">Nitrogen Monoxide</a></td>
+                <td><span class="component-val" data-comp="no"></td>
+              </tr>
+              <tr>
+                <td>NO<sub>2</sub></td>
+                <td><a href="https://en.wikipedia.org/wiki/Nitrogen_dioxide" target="_blank">Nitrogen Dioxide</a></td>
+                <td><span class="component-val" data-comp="no2"></td>
+              </tr>
+              <tr>
+                <td>O<sub>3</sub></td>
+                <td><a href="https://en.wikipedia.org/wiki/Ozone" target="_blank">Ozone</a></td>
+                <td><span class="component-val" data-comp="o3"></td>
+              </tr>
+              <tr>
+                <td>SO<sub>2</sub></td>
+                <td><a href="https://en.wikipedia.org/wiki/Sulfur_dioxide" target="_blank">Sulphur Dioxide</a></td>
+                <td><span class="component-val" data-comp="so2"></td>
+              </tr>
+              <tr>
+                <td>PM<sub>2.5</sub></td>
+                <td><a href="https://en.wikipedia.org/wiki/Particulates" target="_blank">Fine Particles Matter</a></td>
+                <td><span class="component-val" data-comp="pm2_5"></td>
+              </tr>
+              <tr>
+                <td>PM<sub>10</sub></td>
+                <td><a href="https://en.wikipedia.org/wiki/Particulates#Size,_shape_and_solubility_matter"
+                    target="_blank">Coarse Particulate Matter</a></td>
+                <td><span class="component-val" data-comp="pm10"></td>
+              </tr>
+              <tr>
+                <td>NH<sub>3</sub></td>
+                <td><a href="https://en.wikipedia.org/wiki/Ammonia" target="_blank">Ammonia</a></td>
+                <td><span class="component-val" data-comp="nh3"></td>
+              </tr>
+            </tbody>
+        </table>
+        <!-- AIR DATA end -->
+      </div>
+    </section>
+    <!-- Page section end -->
+
+
+    <!-- Footer section -->
+    <footer class="footer-section">
+      <div class="container">
+        <ul class="footer-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="air-quality.html">Air Quality</a></li>
+          <li><a href="weather.html">Live Weather</a></li>
+          <li><a href="aq-module.html">AQ Module</a></li>
+          <li><a href="digitalportofolio.html">Digital Portofolio</a></li>
+          <li><a href="app.html">Download APP</a></li>
+          <li><a href="https://www.youtube.com/@andreipopescufilimon495" target="_blank"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="https://www.instagram.com/andreip851/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        <p class="copyright">© 2022-2023 AQ | Measuring Air Quality <i class="fa fa-heart-o" aria-hidden="true"></i> |
+          Powered by <a href="https://airqualityanalyzer.com/aq-module.html" target="">AQ</a></p>
+      </div>
+    </footer>
+    <!-- Footer section end -->
+
+    <!--====== Javascripts & Jquery ======-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.marquee.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/airqualitymeasure.js"></script>
+
+</body>
+
+</html>
