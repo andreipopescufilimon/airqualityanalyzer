@@ -3,8 +3,8 @@
 📊 Monitoring air quality for a healthier world and environment. The AQ Project introduces a portable, solar-powered module providing real-time insights into air quality levels and weather conditions.
 
 🔬 **Key Features:**
-- Real-time monitoring of air quality indoors and outdoors
-- Solar-powered, rechargeable battery for sustainability
+- Real-time monitoring of air quality and weather
+- Solar-powered, safe for environment 
 - Effectively measures various air pollutants
 
 🚀 **Project Highlights:**
@@ -15,5 +15,6 @@ The AQ Project doesn't stop here! Future possibilities include enhancing the mod
 
 🔗 **Website:**
 [airqualityanalizer](airqualityanalyzer.com)
+[AQ Module]()
 
 Join the journey toward a cleaner, healthier world! 🍃
