@@ -15,6 +15,6 @@ The AQ Project doesn't stop here! Future possibilities include enhancing the mod
 
 🔗 **Website:**
 [airqualityanalizer](airqualityanalyzer.com)
-[AQ Module]()
+[AQ Module](https://github.com/andreipopescufilimon/AQ-Module/)
 
 Join the journey toward a cleaner, healthier world! 🍃
