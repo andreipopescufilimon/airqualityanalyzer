@@ -13,7 +13,7 @@ In this project, I went into the effectiveness of a portable and solar-powered m
 🌟 **Future Potential:**
 The AQ Project doesn't stop here! Future possibilities include enhancing the module to measure additional air pollutants and finding innovative ways to make it more cost-effective.
 
-🔗 **Repository:**
-[airqualityanalizer (website)](airqualityanalyzer.com)
+🔗 **Website:**
+[airqualityanalizer](airqualityanalyzer.com)
 
 Join the journey toward a cleaner, healthier world! 🍃
